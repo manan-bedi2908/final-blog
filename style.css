@@ -1,0 +1,134 @@
+body {
+	font-family: poppins;
+}
+a.navbar-brand {
+	color: blue !important;
+	font-weight: 700;
+}
+.nav-link{
+	color: black !important;
+}
+#particles-js {
+	height: 100%;
+	background-image: url('img2.jpg');
+}
+.banner {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+#tag1:hover, #tag2:hover, #tag3:hover, #tag4:hover {
+	color: green;
+}
+.navbar-brand {
+	font-size: 40px !important;
+	margin-left: 15px !important;
+}
+a.nav-link {
+	font-size: 20px !important;
+}
+.nav-link:hover {
+	color: green;
+}
+.carousel-caption {
+	padding-bottom: 250px !important;
+	font-family: poppins;
+}
+.carousel-caption h2 {
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.carousel-caption h2 span {
+	color: #edbb00;
+}
+.carousel-caption a {
+	background: #edbb00;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 25px;
+}
+.carousel-control.right {
+	background-image: none;
+}
+.single-blog {
+	box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+	padding: 10px;
+	margin-top: 30px;
+	background-color: #fff;
+}
+.single-blog img {
+	width: 330px;
+}
+.blog-meta {
+	font-size: 14px;
+	margin-bottom: 2px;
+}
+.single-blog span {
+	float: right;
+	font-size: 12px;
+	color: cornflowerblue;
+}
+.blog-text {
+	font-size: 14px;
+	text-align: justify;
+}
+.single-blog h2 {
+	margin-top: 10px;
+	font-size: 16px;
+	color: #007bff;
+}
+.single-blog h2 a {
+	text-decoration: none;
+}
+.read-more-btn {
+	background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+	padding: 5px 12px 8px;
+	border-radius: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #fff;
+	border: none !important;
+}
+.read-more-btn:hover {
+	background-image: linear-gradient(to right, #006417, #00b128);
+	text-decoration: none;
+	color: #fff;
+}
+.bann {
+	background: linear-gradient(rgb(102, 168, 255),rgb(0, 110, 255));
+}
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	.banner {
+		height: 80vh;
+	}
+	.carousel-caption {
+		padding-bottom: 80px !important;
+		font-family: poppins;
+	}
+	.carousel-caption h2 {
+		font-size: 60px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.carousel-caption h2 span {
+		color: #edbb00;
+	}
+	.carousel-caption a {
+		background: #edbb00;
+		padding: 15px 35px;
+		display: inline-block;
+		margin-top: 15px;
+		color: #fff;
+		text-transform: uppercase;
+		border-radius: 15px;
+	}
+	.single-blog img {
+		width: 310px;
+	}
+}
