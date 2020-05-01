@@ -8,6 +8,11 @@ a.navbar-brand {
 .nav-link{
 	color: black !important;
 }
+.nav-link:hover {
+	color: green !important;
+	font-weight: bold;
+	background-color: yellow;
+}
 #particles-js {
 	height: 100%;
 	background-image: url('img2.jpg');
@@ -65,9 +70,19 @@ a.nav-link {
 .single-blog img {
 	width: 330px;
 }
+#cv {
+	height: 225px;
+}
 .blog-meta {
 	font-size: 14px;
 	margin-bottom: 2px;
+}
+#likes {
+	font-size: 18px;
+}
+.single-blog:hover {
+	background-color: orange;
+	transition: all 1s ease-in-out; 
 }
 .single-blog span {
 	float: right;
@@ -100,12 +115,12 @@ a.nav-link {
 	text-decoration: none;
 	color: #fff;
 }
-.bann {
+/*.bann {
 	background: linear-gradient(rgb(102, 168, 255),rgb(0, 110, 255));
-}
+}*/
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-	.banner {
-		height: 80vh;
+	.bann {
+		height: 100vh !important;
 	}
 	.carousel-caption {
 		padding-bottom: 80px !important;
